@@ -6,8 +6,11 @@
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2015 browser module main",
     "start": "nx serve",
+    "start-api": "nx serve api",
+    "dep-graph": "nx dep-graph",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "test-e2e": "nx e2e"
   },
   "private": true,
   "dependencies": {
